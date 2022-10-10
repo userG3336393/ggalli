@@ -1,2 +1,2 @@
 # geosystoluca
-Geosys Toluca Reparacion y Mantenimiento de Computadoras
+GGalli Reparacion y Mantenimiento de Computadoras

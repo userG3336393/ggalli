@@ -1,6 +1,6 @@
 <?php 
 
-	$destino ="ggrv.18@hotmail.com";
+	$destino ="noexiste@noexiste.com";
 	$nombre = $_POST['sender1'];
 	$telefono = $_POST['phone1'];
 	$correo = $_POST['mail1'];

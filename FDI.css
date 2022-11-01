@@ -159,6 +159,7 @@
 
 .izqcuadro p, .dercuadro p
 {
+	text-align: center;
 	width: 90%;
 	margin-left: 5%;
 	margin-bottom: 30px;

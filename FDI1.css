@@ -213,7 +213,7 @@ footer
 	#bannerindex
 	{
 		margin-top: 150px;
-		left: 21%;
+		width: 100%;
 	}
 
 	#bannerwords
@@ -252,7 +252,6 @@ footer
 	#indexcont
 	{
 		top: calc(45vw + 72vw);
-		margin-left: .5%;
 		width: 100%;
 	}
 	

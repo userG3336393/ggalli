@@ -275,6 +275,12 @@ footer
 	position: relative;
 	margin: 0px 0px 0px 0px;
 	}
+	.izqcuadro h1, .dercuadro h1
+{
+	text-align: center;
+	width: 100%;
+	margin-top: 20%;
+}
 	
 	.textcuadro
 	{

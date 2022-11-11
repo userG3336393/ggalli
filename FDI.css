@@ -129,6 +129,11 @@ body {
 	border-radius: 5px;
 	padding: 10px;
 	box-shadow: 0px 0px 10px rgb(255, 31, 0);
+
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
 }
 
 #bannerwords a:hover

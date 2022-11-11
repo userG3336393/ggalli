@@ -45,11 +45,22 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 15px 0;
+
+-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+
 }
 
 .header_nav h1{
     color: #fff;
     font-family: nasalization ;
+
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
 }
 
 .header_nav nav a{

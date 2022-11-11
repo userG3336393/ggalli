@@ -252,7 +252,7 @@ footer
 
 	#indexcont
 	{
-		top: calc(45vw + 50vw);
+		top: calc(45vw + 50%);
 		margin-left: .0%;
 		width: 100%;
 		max-width: 100%;

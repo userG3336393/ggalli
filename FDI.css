@@ -1,9 +1,9 @@
 
 #particles-js{
   width: 100%;
-	max-width: 100%;
+  	max-width: 100%;
   height: 100%;
-  margin-left:-40%;
+  margin-left:0%;
   background-image: url('');
   background-size: cover;
   background-position: 80% 80%;
@@ -19,7 +19,6 @@
     z-index:-100;
     position:fixed;
 }
-
 
 #bannerindex
 {
@@ -125,7 +124,7 @@
 .izqcuadro, .dercuadro
 {
 	width: 45%;
-	height: 45vw;
+	height: 75%;
 	display: inline-block;
 	position: relative;
 	margin: 0px 0px 0px 0px;
@@ -133,20 +132,16 @@
 
 #ind122, #ind222, #ind322, #ind422 
 {
-	width: 45vw;
-	height: 45vw;
+	text-align: center;
 	display: table-cell;
 	background-color: rgba(0,0,0,0);
 	vertical-align: middle;
 }
 
-#ind122 *, #ind222 *, #ind322 *,#ind422 *
-{
-	background-color: rgba(0,0,0,0);
-}
 
 .izqcuadro
 {
+	background-color: rgba(0,0,0,0);
 	float: left;
 	margin-left: 5%;
 }
@@ -156,6 +151,7 @@
 	text-align: center;
 	width: 80%;
 	margin-left: 10%;
+	margin-top: 20%;
 }
 
 .izqcuadro p, .dercuadro p
@@ -208,26 +204,13 @@ footer
 }
 
 
-				@media screen and (max-width: 948px)
+				@media screen and (max-width: 945px)
 {
-	
-	#particles-js{
-  width: 100%;
-	max-width: 100%;
-  height: 100%;
-  margin-left:-40%;
-  background-image: url('');
-  background-size: cover;
-  background-position: 80% 80%;
-  background-repeat: no-repeat;
-  z-index: 1;
-  position:absolute;
-}
 	
 	#bannerindex
 	{
 		margin-top: 150px;
-		left: 15%;
+		left: 21%;
 	}
 
 	#bannerwords
@@ -264,11 +247,18 @@ footer
 	}
 
 	#indexcont
-	{
-		top: calc(45vw + 72vw);
-		margin-left: .5%;
-		width: 100%;
-	}
+{
+	background-image: url("img/tec1.png");
+	background-attachment: fixed;
+	position: relative;
+	display: block;
+	padding-top: 25px;
+	padding-bottom: 20px;
+	top: calc(25.18vw + 310px);
+	z-index: 2;
+	width:100%;
+	
+}
 	
 	.izqcuadro, .dercuadro
 	{
@@ -278,6 +268,12 @@ footer
 	position: relative;
 	margin: 0px 0px 0px 0px;
 	}
+	.izqcuadro h1, .dercuadro h1
+{
+	text-align: center;
+	width: 100%;
+	margin-top: 20%;
+}
 	
 	.textcuadro
 	{
@@ -289,7 +285,6 @@ footer
 		text-align: center;
 		width: 100%;
 		height: 100%;
-		margin-top: 10%;
 		display: block;
 		position: relative;
 		float: none;		

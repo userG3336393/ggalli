@@ -1,3 +1,13 @@
+@font-face{
+    font-family: f_;
+    src:url(f_.ttf);
+}
+
+@font-face{
+    font-family: nasalization;
+    src:url(nasalization.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -12,12 +22,13 @@ body{
     width: 90%;
     max-width: 1200px;
     margin: auto;
+    font-family: nasalization ;
 }
 
 .bg_animate{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(to right, #000000, #FF4500);
+    background: linear-gradient(to right, #1E98D9  , #A9EA07);
     position: relative;
     overflow: hidden;
 }
@@ -38,7 +49,7 @@ body{
 
 .header_nav h1{
     color: #fff;
-    font-family: 'Gagalin';
+    font-family: nasalization ;
 }
 
 .header_nav nav a{

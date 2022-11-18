@@ -2023,6 +2023,103 @@ select
 }
 
 
+												@media screen and (max-width: 1250px)
+
+
+{
+	header
+	{
+		height: 13%;
+		border-radius: 0px;
+	}
+	
+	header ul
+	{
+		display: block;
+		position: fixed;
+		float: left;
+		top: 89px;
+		margin-left: 0px;
+		left: 0px;
+		height: 150px;
+		text-align: center;
+		background-color: #333333;
+		padding-top: 30px;
+		padding-bottom: 10px;
+
+	}
+
+	#headerlist
+	{
+		display: none;
+	}
+
+	header ul li
+	{
+		display: block;
+		margin: 0px;
+		padding: 0px;
+		background-color: rgba(0,0,0,0);
+		margin-left: -50px;
+	}
+
+	
+	header ul li a
+	{
+		background-color: #333333;
+		padding: 0px;
+		margin: 0px;
+		top: 0px;
+		margin-top: 0px;
+		border-radius: 1px;
+
+	}
+
+
+	.raya
+	{
+		display: none;
+	}
+
+	#logo
+	{
+		background-color:rgba(0,0,0,0);
+		margin: 10px;
+		left: 33px;
+		display: block;
+		float: none;
+		margin-right: auto;
+		margin-left: auto;
+		position: relative;
+		height: 50px;
+
+	}
+	
+	.dropdown
+	{
+		height: 45px;
+		position: relative;
+		top: -47px;
+		width: 45px;
+		background-size: 100% 100%;
+		margin-left: 6%;
+		margin-right: auto;
+		cursor: pointer;
+		display: block;
+		background-color: rgba(0,0,0,0);
+		background-image: url('img/Down2.png');
+		transition-duration: 2s;
+	}
+
+	.down
+	{
+		background-color: rgba(0,0,0,0);
+		background-image: url('img/Up2.png');
+		transition-duration: 2s;
+	}
+
+}
+
 
 
 
